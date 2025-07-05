@@ -16,9 +16,9 @@ const Footer = () => {
                         <div className="flex-1 min-w-[200px] px-2">
                             <Link to="/" className="flex items-start space-x-3">
                                 <img
-                                    src="/logochess.png"
+                                    src="/logofooter.png"
                                     alt="Thirumal Chess Academy Logo"
-                                    className="h-10 w-auto"
+                                    className="h-12 w-auto"
                                 />
                                 <span className="text-lg font-semibold text-white leading-snug break-words max-w-[180px]">
                                     Thirumal Chess Academy
