@@ -26,7 +26,7 @@ const Home = () => {
 
   const heroContent = {
     title: "Elevate Your Chess Game",
-    subtitle: "Join our masterclass programs with world-class instructors",
+    subtitle: "Join our masterclass programs with professional instructors",
     cta: "Explore Courses"
   };
 

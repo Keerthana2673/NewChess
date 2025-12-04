@@ -90,11 +90,11 @@ const Contact = () => {
             <div className="contact-details-template">
               <div className="contact-detail-item">
                 <FontAwesomeIcon icon={faPhoneAlt} className="contact-icon" />
-                <span>(+62) 81 2345 1234</span>
+                <span>(+91) 99943 71589</span>
               </div>
               <div className="contact-detail-item">
                 <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
-                <span>topchessacademy@gmail.com</span>
+                <span>kalyanraghavanchess@gmail.com</span>
               </div>
               <div className="contact-detail-item">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon" />
@@ -103,13 +103,13 @@ const Contact = () => {
             </div>
 
             <div className="social-icons-template">
-              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-template">
+              <a href="https://www.facebook.com/people/Thirumal-Chess-Academy/100054581404119/" target="_blank" rel="noopener noreferrer" className="social-icon-template">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="social-icon-template">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon-template">
+              <a href="https://www.instagram.com/thirumalchess/" target="_blank" rel="noopener noreferrer" className="social-icon-template">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </div>

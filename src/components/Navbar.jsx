@@ -61,7 +61,7 @@ const Navbar = () => {
                   alt="Thirumal Chess Academy Logo"
                   className="h-10 w-auto"
                 />
-                <span className="text-2xl font-bold text-gray-800 tracking-wide whitespace-nowrap">
+                <span className="text-base sm:text-lg md:text-xl lg:text-2xl font-thin text-black tracking-wide whitespace-nowrap font-serif">
                   Thirumal Chess Academy
                 </span>
               </Link>

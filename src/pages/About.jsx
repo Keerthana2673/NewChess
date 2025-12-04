@@ -11,12 +11,12 @@ const About = () => {
   }, []);
 
   const images = [
-    '/images/slideshow/image1.png',
-    '/images/slideshow/image2.png',
-    '/images/slideshow/image3.png',
-    '/images/slideshow/image4.png',
-    '/images/slideshow/image5.png',
-    '/images/slideshow/image6.png',
+    '/images/slideshowimage1.png',
+    '/images/slideshowimage2.png',
+    '/images/slideshowimage3.png',
+    '/images/slideshowimage4.png',
+    '/images/slideshowimage5.png',
+    '/images/slideshowimage6.png',
   ];
 
   // const coaches = [
@@ -136,8 +136,8 @@ const About = () => {
 
             {/* Progress Bars */}
             {[
+              { label: "Expert Coaches", value: 98 },
               { label: "Best Courses", value: 95 },
-              { label: "Expert Coaches", value: 93 },
               { label: "Top Awards", value: 90 },
             ].map((item, index) => (
               <div key={index} className="mb-6">
@@ -147,7 +147,7 @@ const About = () => {
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-3">
                   <div
-                    className="bg-gold h-3 rounded-full transition-all duration-1000"
+                    className="bg-[#CEA82A] h-3 rounded-full transition-all duration-1000"
                     style={{ width: `${item.value}%` }}
                   ></div>
                 </div>
