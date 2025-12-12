@@ -23,6 +23,7 @@ const Navbar = () => {
         { name: 'Tournament Preparation', href: '/courses/tournament' },
       ]
     },
+    { name: 'Tournament', href: '/tournament' },
     { name: 'Contact', href: '/contact' }
   ];
 

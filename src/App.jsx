@@ -6,10 +6,11 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Courses from './pages/Courses';
+import Tournament from './pages/Tournament';
 import Contact from './pages/Contact';
 import Basics from './pages/courses/Basics';
 import Advanced from './pages/courses/Advanced';
-import Tournament from './pages/courses/Tournament';
+import Tournamentcourses from './pages/courses/Tournament';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './animations.min.css';
@@ -31,9 +32,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/tournament" element={<Tournament />} />
           <Route path="/courses/basics" element={<Basics />} />
           <Route path="/courses/advanced" element={<Advanced />} />
-          <Route path="/courses/tournament" element={<Tournament />} />
+          <Route path="/courses/tournament" element={<Tournamentcourses />} />
         </Routes>
         <Footer />
       </div>

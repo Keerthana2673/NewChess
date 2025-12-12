@@ -51,11 +51,6 @@ const Footer = () => {
                                 <li><a href="/" className="hover:text-[rgb(206,168,42)] transition-colors">Home</a></li>
                                 <li><a href="/about" className="hover:text-[rgb(206,168,42)] transition-colors">About Us</a></li>
                                 <li><a href="/courses" className="hover:text-[rgb(206,168,42)] transition-colors">Courses</a></li>
-                                <li>
-                                    <Link to="/about#coaches" className="hover:text-[rgb(206,168,42)] transition-colors">
-                                        Coach
-                                    </Link>
-                                </li>
                                 <li><a href="/contact" className="hover:text-[rgb(206,168,42)] transition-colors">Contact</a></li>
                             </ul>
                         </div>
@@ -66,7 +61,6 @@ const Footer = () => {
                             <ul className="space-y-3">
                                 <li><a href="/privacy-policy" className="hover:text-[rgb(206,168,42)] transition-colors">Privacy Policy</a></li>
                                 <li><a href="/terms-and-conditions" className="hover:text-[rgb(206,168,42)] transition-colors">Terms and Conditions</a></li>
-                                <li><a href="/disclaimer" className="hover:text-[rgb(206,168,42)] transition-colors">Disclaimer</a></li>
                                 <li><a href="/support" className="hover:text-[rgb(206,168,42)] transition-colors">Support</a></li>
                                 <li><a href="/faq" className="hover:text-[rgb(206,168,42)] transition-colors">FAQ</a></li>
                             </ul>
