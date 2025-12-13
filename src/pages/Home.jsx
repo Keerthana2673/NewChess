@@ -66,7 +66,7 @@ const Home = () => {
           <div data-aos="fadeInLeft" data-aos-delay="100">
             <div className="chess-board-border w-24 h-24 absolute top-10 left-10 opacity-10"></div>
             <div className="chess-board-border w-16 h-16 absolute bottom-20 right-10 opacity-10"></div>
-            
+
             <h1 className="text-5xl font-serif sm:text-6xl md:text-[72px] font-bold text-white mb-6 leading-tight tracking-tight">
               {heroContent.title}
               <span className="block w-24 h-1.5 bg-[#c9b26d] mt-6" data-aos="fade-right" data-aos-delay="300"></span>
@@ -89,7 +89,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
-          
+
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
             <div className="animate-bounce w-8 h-14 rounded-full border-4 border-white/30 flex justify-center">
               <div className="w-2 h-2 bg-white rounded-full mt-2"></div>
@@ -231,8 +231,8 @@ const Home = () => {
                 icon: "fas fa-chess-queen"
               }
             ].map((course, i) => (
-              <div 
-                key={i} 
+              <div
+                key={i}
                 className="bg-white rounded-xl p-8 shadow-lg border border-white/50 hover:shadow-xl transition-all duration-300"
                 data-aos="fade-up"
                 data-aos-delay={i * 100 + 200}
@@ -242,8 +242,8 @@ const Home = () => {
                 </div>
                 <h3 className="text-2xl font-serif font-semibold mb-4 text-gray-900">{course.title}</h3>
                 <p className="text-gray-600 mb-6">{course.desc}</p>
-                <Link 
-                  to="/courses" 
+                <Link
+                  to="/courses"
                   className="text-[#0d1b0f] font-medium hover:text-[#c9b26d] transition-colors inline-flex items-center"
                 >
                   View program <i className="fas fa-arrow-right ml-2 text-sm"></i>
@@ -279,18 +279,18 @@ const Home = () => {
 
             <div className="space-y-8">
               {[
-                { 
-                  title: "Grandmaster Mentors", 
+                {
+                  title: "Grandmaster Mentors",
                   desc: "Learn from internationally ranked players",
                   icon: "fas fa-chess-board"
                 },
-                { 
-                  title: "Proven Curriculum", 
+                {
+                  title: "Proven Curriculum",
                   desc: "Structured learning path with measurable progress",
                   icon: "fas fa-book-open"
                 },
-                { 
-                  title: "Tournament Support", 
+                {
+                  title: "Tournament Support",
                   desc: "Preparation and guidance for competitive play",
                   icon: "fas fa-trophy"
                 }
@@ -329,7 +329,7 @@ const Home = () => {
                   <div className="text-lg text-gray-700">Students Trained</div>
                 </div>
               </div>
-              
+
               <div className="mt-12 bg-white border border-gray-200 rounded-xl p-8 shadow-lg" data-aos="fade-up" data-aos-delay="700">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Our Methodology</h3>
                 <p className="text-gray-600 mb-6">
@@ -371,7 +371,7 @@ const Home = () => {
             modules={[Autoplay, Pagination]}
             autoplay={{ delay: 8000, disableOnInteraction: false }}
             loop={true}
-            pagination={{ 
+            pagination={{
               clickable: true,
               bulletClass: 'swiper-pagination-bullet testimonial-bullet',
               bulletActiveClass: 'swiper-pagination-bullet-active testimonial-bullet-active'
@@ -406,7 +406,7 @@ const Home = () => {
                           </button>
                         )}
                       </div>
-                      
+
                       <div className="flex items-center border-t border-gray-200 pt-6">
                         <img
                           src={review.avatar}
@@ -435,15 +435,15 @@ const Home = () => {
               );
             })}
           </Swiper>
-          
+
           <div className="mt-12 pt-8 border-t border-white/10">
             <h3 className="text-xl text-white mb-6">Share Your Experience</h3>
-            <button 
+            <button
               onClick={handleClick}
               className="relative inline-flex items-center justify-center px-8 py-4 overflow-hidden text-lg font-medium text-white rounded-lg group bg-gradient-to-br from-[#c9b26d] to-[#a1860a]"
             >
               <span className="relative z-10 flex items-center">
-                Rate Us on Google 
+                Rate Us on Google
                 <span className="ml-3 flex">
                   {[...Array(5)].map((_, i) => (
                     <svg
@@ -462,6 +462,85 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+    <button
+      onClick={() => window.open('https://forms.gle/ruymyCNpCQiURfFT9', '_blank')}
+      className="group fixed bottom-8 right-8 bg-white/10 backdrop-blur-md text-white font-bold py-3 px-6 rounded-full shadow-2xl shadow-purple-500/20 flex items-center gap-2 transition-all duration-300 hover:scale-110 hover:shadow-purple-500/40 z-50 overflow-hidden"
+      style={{
+        border: '2px solid transparent',
+        backgroundClip: 'padding-box',
+        fontFamily: 'inherit', // Matches your website font
+      }}
+    >
+      {/* Animated gradient border */}
+      <div className="absolute inset-0 rounded-full p-[2px]">
+        <div 
+          className="absolute inset-0 rounded-full animate-border-rotate"
+          style={{
+            background: 'conic-gradient(from var(--angle), #ec4899 0%, #8b5cf6 25%, #ec4899 50%, #8b5cf6 75%, #ec4899 100%)',
+            animation: 'borderRotate 3s linear infinite',
+          }}
+        ></div>
+        <div className="absolute inset-[2px] rounded-full bg-transparent backdrop-blur-md"></div>
+      </div>
+      
+      {/* Snake line effect */}
+      <div className="absolute inset-0 rounded-full overflow-hidden">
+        <div className="absolute -inset-10 animate-snake">
+          <div className="relative h-full w-full">
+            <div className="absolute h-[2px] w-20 bg-gradient-to-r from-transparent via-white to-transparent transform -rotate-45"></div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Content */}
+      <span className="relative z-10 flex items-center gap-2">
+        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+        </svg>
+        <span className="hidden sm:inline">TOURNAMENT REGISTRATION</span>
+        <span className="sm:hidden text-xs w-16 text-center leading-tight">TOURNAMENT REGISTRATION</span>
+        <svg className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </span>
+
+      {/* Add CSS animations */}
+      <style jsx>{`
+        @property --angle {
+          syntax: '<angle>';
+          initial-value: 0deg;
+          inherits: false;
+        }
+        
+        @keyframes borderRotate {
+          0% {
+            --angle: 0deg;
+          }
+          100% {
+            --angle: 360deg;
+          }
+        }
+        
+        .animate-border-rotate {
+          animation: borderRotate 3s linear infinite;
+        }
+        
+        @keyframes snake {
+          0% {
+            transform: translateX(-100%) translateY(-100%) rotate(45deg);
+          }
+          100% {
+            transform: translateX(100%) translateY(100%) rotate(45deg);
+          }
+        }
+        
+        .animate-snake {
+          animation: snake 3s ease-in-out infinite;
+        }
+      `}</style>
+    </button>
+
     </div>
   );
 };

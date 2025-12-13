@@ -9,7 +9,7 @@ const Navbar = () => {
   const [openDropdown, setOpenDropdown] = useState(null);
   const [openMobileDropdown, setOpenMobileDropdown] = useState(null);
   const [scrolled, setScrolled] = useState(false);
-  const handleClick = () => { window.open("https://forms.gle/K51TQJiHhUTWte1GA", "_blank"); };
+  const handleClick = () => { window.open("https://forms.gle/Eb9hNVZwcVxEF7Yp8", "_blank"); };
 
   const navItems = [
     { name: 'Home', href: '/', exact: true },

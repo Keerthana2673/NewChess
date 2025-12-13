@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Courses from './pages/Courses';
 import Tournament from './pages/Tournament';
+import LegalPages from './pages/LegalPages';
 import Contact from './pages/Contact';
 import Basics from './pages/courses/Basics';
 import Advanced from './pages/courses/Advanced';
@@ -36,6 +37,7 @@ function App() {
           <Route path="/courses/basics" element={<Basics />} />
           <Route path="/courses/advanced" element={<Advanced />} />
           <Route path="/courses/tournament" element={<Tournamentcourses />} />
+          <Route path="/:page" element={<LegalPages />} />
         </Routes>
         <Footer />
       </div>

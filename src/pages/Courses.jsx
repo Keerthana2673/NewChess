@@ -187,7 +187,7 @@ const Courses = () => {
                       </div>
                       
                       <a
-                        href="https://forms.gle/UJ9ypM8xgXj4jnSb8"
+                        href="https://forms.gle/Eb9hNVZwcVxEF7Yp8"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl shadow-lg shadow-amber-500/20 flex items-center"
